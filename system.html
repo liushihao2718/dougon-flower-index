@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>system</title>
+	<style type="text/css">
+		body{
+			font-family: DFKai-sb, serif;
+		}
+		header {
+			text-align: center;
+			font-size: 24pt;
+		    background-size: 100% 100%;
+		}
+		header img{
+			width: 100%;
+			opacity: 80%;
+		}
+		article{
+			text-indent: 2em;
+			font-size: 14pt;
+		}
+		main {
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+		main iframe {
+			align-items: center;
+		}
+		footer {
+			margin-top: 100px;
+		}
+	</style>
+	<style type="text/css">
+		video {
+			width:100%;
+		}
+
+		.wrapper {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: repeat(4, 100px);
+		}
+
+		.btn {
+			-webkit-box-shadow: 1px 2px 3px #666666;
+			-moz-box-shadow: 1px 2px 3px #666666;
+			box-shadow: 1px 2px 3px #666666;
+			font-family: Arial;
+			color: #333333;
+			font-size: 20px;
+			background: #fafafa;
+			padding: 10px 20px 10px 20px;
+			text-decoration: none;
+		}
+
+		.btn:hover {
+			background: #ffffff;
+			background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+			background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+			background-image: -ms-linear-gradient(top, #ffffff, #f0f0f0);
+			background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+			background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>海石榴華生成系統</h1>
+	</header>
+	<main>
+		<p align="center">
+		<video src="./videos/demo.m4v" autoplay loop/>
+		</p>
+		<div class="wrapper">
+			<div class="btn">One</div>
+			<div class="btn">Two</div>
+			<div class="btn">Three</div>
+			<div class="btn">Four</div>
+		</div>
+	</main>
+</body>
+</html>
