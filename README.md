@@ -1,2 +1,2 @@
 # dougon-flower-index
-論文首頁
+https://st930112.github.io/dougon-flower-index/
